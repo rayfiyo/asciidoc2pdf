@@ -1,12 +1,11 @@
-**I found an existing service and archived it.**
-
-# Usage asciidoctor-pdf on Japanese (日本語でのasciidoctor-pdfの使用方法)
+# This repository is archived.
+**⚠️I found an existing service and archived it.⚠️**
+## Usage asciidoctor-pdf on Japanese (日本語でのasciidoctor-pdfの使用方法)
 ~~~
 docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf -a scripts=cjk -a pdf-theme=default-with-fallback-font {targetFile.adoc}
 ~~~
 * Change {targetFile.adoc} to any path. ( {targetFile.adoc} は任意のパスに変更してください。)
-
-# info
+## info
 [asciidoctor / asciidoctor-pdf](https://github.com/asciidoctor/asciidoctor-pdf)
 [Asciidoctor PDF Documentation](https://docs.asciidoctor.org/pdf-converter/latest/)
 
